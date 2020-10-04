@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apache.Kiev.UA]]></title><description><![CDATA[Minimalistic blog]]></description><link>https://rapache.kiev.ua</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Oct 2020 22:51:19 GMT</lastBuildDate><item><title><![CDATA[OS X Catalina | Error - 'gyp' failed with exit code 1]]></title><description><![CDATA[I tried to set up my local Node.js environment to develop my Gatsby.js blog. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Apache.Kiev.UA]]></title><description><![CDATA[Мінімалістичний блог про веб-розробку та всяко комп'ютерне]]></description><link>https://rapache.kiev.ua</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 04 Oct 2020 23:23:03 GMT</lastBuildDate><item><title><![CDATA[Починаємо наново]]></title><description><![CDATA[От я і перевів свій онлайн-щоденник на Node.js, хоча взагалі раніше писав тільки на PHP.
+На чому він працює: Все білдиться у Gatsby.js з…]]></description><link>https://rapache.kiev.ua/hello-world/</link><guid isPermaLink="false">https://rapache.kiev.ua/hello-world/</guid><pubDate>Mon, 05 Oct 2020 16:01:00 GMT</pubDate><content:encoded>&lt;p&gt;От я і перевів свій онлайн-щоденник на Node.js, хоча взагалі раніше писав тільки на PHP.
+На чому він працює:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;Все білдиться у Gatsby.js з &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog&quot;&gt;blog starter&lt;/a&gt; темою, переводиться у статичні сторінки при деплойменті у наступному пункті&lt;/li&gt;
+&lt;li&gt;Модуль gh-pages для Ноди, щом можна було по-лінивому постити оновлення однією консольною командою&lt;/li&gt;
+&lt;li&gt;GitHub Pages, щоб це все запостити (&lt;a href=&quot;https://github.com/ApacheKievUa/ApacheKievUa/&quot;&gt;тут&lt;/a&gt; код цих сторінок у Гітхабі)&lt;/li&gt;
+&lt;li&gt;NIC.UA для реєстрації домену&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Мета цієї авантюри - писати про все, про що заманеться. Наприклад про веб-розробку, або колекцію старимх ноутів, серверів, чи смартфонів.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[OS X Catalina | Error - 'gyp' failed with exit code 1]]></title><description><![CDATA[I tried to set up my local Node.js environment to develop my Gatsby.js blog. 
 At the ‘gatsby new …’ step it failed with a lot of node-gyp…]]></description><link>https://rapache.kiev.ua/gyp-failed-with-exit-code-1-catalina/</link><guid isPermaLink="false">https://rapache.kiev.ua/gyp-failed-with-exit-code-1-catalina/</guid><pubDate>Sat, 26 Sep 2020 23:22:00 GMT</pubDate><content:encoded>&lt;p&gt;I tried to set up my local Node.js environment to develop my Gatsby.js blog.
 At the ‘gatsby new …’ step it failed with a lot of node-gyp related errors.
 Google tells that usually it’s solved by reinstalling command line tools, which didn’t work for me the way it’s supposed to. &lt;/p&gt;
@@ -8,15 +19,4 @@ Google tells that usually it’s solved by reinstalling command line tools, whic
 If I open system updates - it shows “Command Line Tools for Xcode 12” and “Command Line Tools for Xcode 12.2 beta” - neither of given optins managed to finish installation. &lt;/p&gt;
 &lt;p&gt;If you are in the same situation, check &lt;a href=&quot;https://developer.apple.com/forums/thread/127705&quot;&gt;this&lt;/a&gt; Apple Developers Forum question.&lt;/p&gt;
 &lt;h2&gt;Solution:&lt;/h2&gt;
-&lt;p&gt;Go to &lt;a href=&quot;https://developer.apple.com/download/more/&quot;&gt;More Downloads for Apple Developers&lt;/a&gt; website, and download the Command Line Tools manually. Open it and install - after that try whatever failed with the node-gyp errors.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Hello World]]></title><description><![CDATA[So I’ve deployed my first blog in Node.js instead of PHP.
-What’s involved: Gatsby.js with a blog starter gh-pages Node module to post blog…]]></description><link>https://rapache.kiev.ua/hello-world/</link><guid isPermaLink="false">https://rapache.kiev.ua/hello-world/</guid><pubDate>Sat, 26 Sep 2020 22:22:00 GMT</pubDate><content:encoded>&lt;p&gt;So I’ve deployed my first blog in Node.js instead of PHP.
-What’s involved:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;Gatsby.js with a &lt;a href=&quot;https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog&quot;&gt;blog starter&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;gh-pages Node module to post blog updates with one CLI command, because I’m lazy&lt;/li&gt;
-&lt;li&gt;GitHub Pages to host the blog (&lt;a href=&quot;https://github.com/DmitryRublev/&quot;&gt;here&lt;/a&gt; is my GitHub)&lt;/li&gt;
-&lt;li&gt;Google Domains for the .dev domain name&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Purpose - to gather my webdev experience, share my version of some how-to’s which I find useful, but lacking some up-to-date info.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Go to &lt;a href=&quot;https://developer.apple.com/download/more/&quot;&gt;More Downloads for Apple Developers&lt;/a&gt; website, and download the Command Line Tools manually. Open it and install - after that try whatever failed with the node-gyp errors.&lt;/p&gt;</content:encoded></item></channel></rss>
